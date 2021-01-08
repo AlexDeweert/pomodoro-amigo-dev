@@ -24,10 +24,12 @@ TODO: Get a schema dump and put directions here on how to restore it.
 ## API VM
 Connect to this vm with `vagrant ssh api`
 ### Install nodejs, npm, and express
->sudo apt update
->sudo apt install nodejs
->sudo apt install npm
->mkdir api
->cd api
->npm init (accept all defaults)
->npm install express --save (saves express as a dependency in package.json)
+```
+sudo apt update
+sudo apt install nodejs
+sudo apt install npm
+mkdir api
+cd api
+npm init (accept all defaults)
+npm install express --save (saves express as a dependency in package.json)
+```
