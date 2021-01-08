@@ -1,4 +1,4 @@
-#Development Environment
+# Development Environment
 
 The development environment for PomodoroAmigo is established using a private network of virtual machines, instantiated and configured with Vagrant.
 
