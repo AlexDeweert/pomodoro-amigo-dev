@@ -18,5 +18,6 @@ Vagrant.configure("2") do |config|
     postgres.vm.box = "ubuntu/focal64"
     postgres.vm.network "forwarded_port", guest: 5431, host: 5431
     postgres.vm.network "private_network", ip: "10.0.0.80"
+    postgres.vm.synced_folder "./postgres_shared", "/postgres_shared"
   end
 end
